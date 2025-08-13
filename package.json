@@ -1,11 +1,11 @@
 {
-  "name": "magicui-blog",
+  "name": "blog-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "fumadocs-mdx && next dev --turbopack",
-    "build": "fumadocs-mdx && next build",
-    "start": "next start",
+    "dev": "node init && fumadocs-mdx && next dev --turbopack",
+    "build": "node init && fumadocs-mdx && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "postinstall": "fumadocs-mdx"
   },
